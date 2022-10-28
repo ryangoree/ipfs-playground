@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ipfs-core": "^0.16.1"
+    "ipfs-core": "^0.16.1",
+    "it-all": "^2.0.0",
+    "it-to-buffer": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

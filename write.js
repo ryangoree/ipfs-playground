@@ -4,7 +4,7 @@ const content = 'Test 1'
 
 async function write() {
   const node = await IPFS.create()
-  const file = await node.files.write('/stuff/test.txt', content, {
+  await node.files.write('/stuff/test.txt', content, {
     create: true,
     parents: true,
   })

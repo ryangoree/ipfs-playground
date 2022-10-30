@@ -12,6 +12,7 @@ async function read() {
   } catch (err) {
     console.error(err)
   }
+  process.exit()
 }
 
 read()

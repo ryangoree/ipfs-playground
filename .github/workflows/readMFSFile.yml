@@ -17,4 +17,8 @@ jobs:
       - name: install dependencies
         run: yarn
       - name: read file
-        run: yarn start
+        run: yarn run read
+      - name: write file
+        run: yarn run write
+      - name: read file
+        run: yarn run read

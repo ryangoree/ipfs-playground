@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "watch": "nodemon index.js"
+    "watch": "nodemon index.js",
+    "read": "node read.js",
+    "write": "node write.js"
   },
   "author": "",
   "license": "ISC",
